@@ -38,8 +38,12 @@ div.nav{
     display: inline-block;
     
 }
-
 div.nav ul li{
+    list-style: none;
+    float: left;
+}
+
+div.nav ul li a{
     /* display: inline-block; */
     list-style: none;
     float: left;
@@ -52,8 +56,8 @@ div.nav ul li{
     border-radius: 8px;
 }
 
-div.nav ul li:hover{
-    background-color: crimson;
+div.nav ul li a:hover{
+    background-color: rgb(98, 242, 21);
     color: aliceblue;
 }
 
@@ -235,4 +239,55 @@ div div.return{
     margin: 10px auto;
     text-align: center;
     font-size: 15px;
+}
+
+/* Creacion de la pagina de Gestion de Perfil */
+
+div.container-setting{
+    width: 60%;
+    height: auto;
+    background-color: rgba(181, 183, 183, 0.8);
+    border-radius: 15px;
+    margin: 30px auto;
+    padding: 15px;
+    box-shadow: 5px 5px 15px;
+    justify-content: center;
+}
+
+div.container-setting h2{
+    margin-bottom: 10px;
+    text-align: center;
+    color: rgb(110, 3, 24);
+}
+
+div.container-setting table{
+    background-color: rgb(218, 216, 216);
+    font-size: 15px;
+    width: 95%;
+    margin: 15px auto;
+    border-color: rgb(82, 82, 82);
+    border-collapse: collapse;
+    text-align: center;
+}
+div.container-setting tr th{
+    text-transform: uppercase;
+}
+div.container-setting table tr th,td{
+    padding: 10px 0px;
+    /* margin: 0px 10px; */
+}
+div.container-setting table tr td a{
+    padding: 4px;
+    /* margin: 4px; */
+    border-radius: 3px;
+}
+div.container-setting table tr td a.update{
+    color: white;
+    margin: auto 5px;
+    background-color: rgb(255, 132, 1);
+}
+div.container-setting table tr td a.delete{
+    color: white;
+    margin: auto 5px;
+    background-color: red;
 }
