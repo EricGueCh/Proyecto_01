@@ -4,7 +4,7 @@
     text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
+/* Aquí empieza el diseño de la página principal */
 body{
     background-image: url(/src/img/background.jpg);
     background-repeat: no-repeat;
@@ -153,4 +153,86 @@ footer span.copyright{
     font-size: 90%;
     line-height: 30px;
     
+}
+
+/* Aqui empieza el diseño para la página de registro */
+
+div.container-register{
+    width: 40%;
+    height: auto;
+    background-color: rgba(181, 183, 183, 0.8);
+    border-radius: 15px;
+    margin: 30px auto;
+    padding: 15px;
+    box-shadow: 5px 5px 15px;
+}
+
+div div.title-register{
+    text-align: center;
+    margin: 10px;
+}
+
+div div.title-register h2,p{
+    margin: 10px 0px;
+}
+
+div div form label:not([for="term-conditions"],[for="political"]){
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+div div form label[for="term-conditions"],[for="political"]{
+    font-size: 15px;
+    display: inline-flex;
+}
+
+div div form input:not([type="checkbox"]){
+    display: block;
+    width: 96%;
+}
+
+div div form input:not([type="submit"]){
+    background-color: white;
+	padding: 5px;
+	/* padding-top: 0px; */
+	border: 1px solid #495e8d;
+    border-radius: 3px;
+	margin-bottom: 10px;
+	color: black;
+	font-size: 15px;
+}
+
+div div form div.check-term, div.check-political{
+    display:inline-flex;
+    /* border: 1px solid white; */
+    justify-content: start;
+}
+
+div div form input[type="submit"]{
+    background-color: crimson;
+    color: white;
+    font-weight: bold;
+    margin: 10px auto;
+    /* margin-top: 10px; */
+    padding: 10px 0px;
+    border: none;
+    border-radius: 5px;
+    width: 50%;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+div div form input[type="submit"]:hover{
+    background-color: rgb(5, 189, 251);
+    color: crimson;
+    
+}
+
+div div.return{
+    width: 50%;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 15px;
 }

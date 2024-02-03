@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUERRERO TECH</title>
+    <link rel="stylesheet" href="/src/css/style.css">
+</head>
+<body>
+    <div class="container-register">
+        <div class="title-register">
+            <h2>Registro de nuevo usuario</h2>
+            <p>Registrate para que puedas conseguir los mejores descuentos en tus compras</p>
+        </div>
+        <div class="form-register">
+            <form action="">
+                <label for="name">Nombres:</label>
+                <input type="text" class="information" id="name" placeholder="Ingresa tus nombres">
+                <label for="surname">Apellidos:</label>
+                <input type="text" class="information" id="surname" placeholder="Ingresa tus apellidos">
+                <label for="email">E-mail:</label>
+                <input type="email" class="information" id="email" placeholder="Ingresa tu correo electrónico">
+                <label for="pwd">Contraseña:</label>
+                <input type="password" class="information" id="pwd" placeholder="Ingresa tu contraseña">
+                <div class="check-term">
+                    <input type="checkbox" class="information" name="term-conditions" id="term-conditions" required>
+                    <label for="term-conditions">He leído y acepto los <a href="#">&nbsp;Terminos y Condiciones</a></label>
+                </div>
+                <div class="check-political">    
+                    <input type="checkbox" class="information" name="political" id="political" required>
+                    <label for="political">He leído y acepto las <a href="#">&nbsp;Politicas de Privacidad</a></label>
+                </div>
+                <input type="submit" name="send-register" id="send-register" value="Registrarme">
+            </form>
+            
+        </div>
+        <div class="return">
+            <a href="index.html">Regresar</a>
+        </div>
+    </div>
+</body>
+</html>
