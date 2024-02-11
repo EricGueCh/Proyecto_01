@@ -21,32 +21,38 @@ header{
 
 div.logo{
     display:inline-flex;
-    line-height: 50px;
+    line-height: 70px;
     /* border: 1px solid white; */
-    margin: 10px 180px;
+    /* margin: 10px auto; */
+    justify-content: center;
     /* font-family: Georgia, 'Times New Roman', Times, serif; */
     
 }
 div.logo img{
     width: 50px;
     height: 50px;
-    margin: 0px 10px;
+    margin: auto 5px;
 }
 div.nav{
     /* border: 1px solid white; */
     text-decoration: none;
-    display: inline-block;
+    display: inline-flex;
+    /* float: right; */
+    line-height: 70px;
+    justify-content:end;
+    /* margin: auto 30px; */
     
 }
 div.nav ul li{
     list-style: none;
-    float: left;
+    display: inline-block;
+    /* float: right; */
 }
 
 div.nav ul li a{
     /* display: inline-block; */
     list-style: none;
-    float: left;
+    /* float: left; */
     /* line-height: 40px; */
     padding: 10px 20px;
     /* font-family: Georgia, 'Times New Roman', Times, serif; */
@@ -290,4 +296,74 @@ div.container-setting table tr td a.delete{
     color: white;
     margin: auto 5px;
     background-color: red;
+}
+
+/* Aquí se agrega los media query para ajustar objetos para celulares */
+@media (min-width:576px) and (max-width: 768px) {
+    div.logo h2{
+        font-size: 20px;
+    }
+    div.logo img{
+        width: 40px;
+        height: 40px;
+        margin: auto 10px;
+    }
+    div.nav{
+        /* border: 1px solid white; */
+        text-decoration: none;
+        display: inline-flex;
+        line-height: 22.5px;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    div.nav ul li{
+        list-style: none;
+        display: block;
+    }
+    
+    div.nav ul li a{
+        list-style: none;
+        padding: 1px 10px;
+        font-size: 18px;
+        color: rgb(95, 28, 158);
+        cursor: pointer;
+        border-radius: 8px;
+    }
+    
+
+}
+@media (max-width: 575px) {
+    div.logo h2{
+        font-size: 20px;
+    }
+    div.logo img{
+        width: 40px;
+        height: 40px;
+        margin: auto 10px;
+    }
+    div.nav{
+        /* border: 1px solid white; */
+        text-decoration: none;
+        display: inline-flex;
+        line-height: 22.5px;
+        justify-content:center;
+        text-align: center;
+        
+    }
+    div.nav ul li{
+        list-style: none;
+        display: block;
+    }
+    
+    div.nav ul li a{
+        list-style: none;
+        padding: 1px 10px;
+        font-size: 18px;
+        color: rgb(95, 28, 158);
+        cursor: pointer;
+        border-radius: 8px;
+    }
+    
+
 }
