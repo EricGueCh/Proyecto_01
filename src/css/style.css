@@ -311,6 +311,16 @@ div.container-setting table tr td a.delete{
         text-align: center;
         line-height: 18px;
     }
+    div.container-setting{
+        width: 75%;
+        height: auto;
+        background-color: rgba(181, 183, 183, 0.8);
+        border-radius: 15px;
+        margin: 30px auto;
+        padding: 15px;
+        box-shadow: 5px 5px 15px;
+        justify-content: center;
+    }
 
 }
 @media (min-width:768px) and (max-width: 991px) {
@@ -333,6 +343,25 @@ div.container-setting table tr td a.delete{
         margin: 30px auto;
         padding: 15px;
         box-shadow: 5px 5px 15px;
+    }
+    div.container-setting{
+        width: 90%;
+        height: auto;
+        background-color: rgba(181, 183, 183, 0.8);
+        border-radius: 15px;
+        margin: 40px auto;
+        padding: 8px;
+        box-shadow: 5px 5px 15px;
+        justify-content: center;
+    }
+    div.container-setting table{
+        font-size: 13px;    
+    }
+    div.container-setting table tr td a.update{
+        margin: auto 3px;  
+    }
+    div.container-setting table tr td a.delete{
+        margin: auto 3px;
     }
 }
 
@@ -387,6 +416,25 @@ div.container-setting table tr td a.delete{
         padding: 15px;
         box-shadow: 5px 5px 15px;
     }
+    div.container-setting{
+        width: 90%;
+        height: auto;
+        background-color: rgba(181, 183, 183, 0.8);
+        border-radius: 15px;
+        margin: 50px auto;
+        padding: 4px;
+        box-shadow: 5px 5px 15px;
+        justify-content: center;
+    }
+    div.container-setting table{
+        font-size: 10px;    
+    }
+    div.container-setting table tr td a.update{
+        margin: auto 2px;  
+    }
+    div.container-setting table tr td a.delete{
+        margin: auto 2px;
+    }
 }
 
 @media (max-width: 575px) {
@@ -439,5 +487,24 @@ div.container-setting table tr td a.delete{
         margin: 30px auto;
         padding: 15px;
         box-shadow: 5px 5px 15px;
+    }
+    div.container-setting{
+        width: 95%;
+        height: auto;
+        background-color: rgba(181, 183, 183, 0.8);
+        border-radius: 15px;
+        margin: 60px auto;
+        padding: 2px;
+        box-shadow: 5px 5px 15px;
+        justify-content: center;
+    }
+    div.container-setting table{
+        font-size: 8px;    
+    }
+    div.container-setting table tr td a.update{
+        margin: auto 2px;  
+    }
+    div.container-setting table tr td a.delete{
+        margin: auto 2px;
     }
 }
