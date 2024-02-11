@@ -68,8 +68,8 @@ div.nav ul li a:hover{
 }
 
 section.about{
-    /* border: 1px solid white; */
-    width: 60%;
+    border: 1px solid white;
+    /* width: 60%; */
     height: auto;
     margin: 15px auto;
     padding: 15px 10px;
@@ -97,7 +97,7 @@ section.about p{
 
 section.products{
     /* border: 1px solid white; */
-    width: 60%;
+    /* width: 60%; */
     height: auto;
     margin: 15px auto;
     padding: 15px 10px;
@@ -298,8 +298,37 @@ div.container-setting table tr td a.delete{
     background-color: red;
 }
 
-/* Aquí se agrega los media query para ajustar objetos para celulares */
-@media (min-width:576px) and (max-width: 768px) {
+/* Aquí se agrega los media query para ajustar objetos segun el tamaño de pantalla */
+@media (min-width:992px) and (max-width: 1199px) {
+    section div div.card{
+        width: 45%;
+        height: 220px;
+        margin: 5px;
+        padding: 10px;
+        background-color: rgba(129, 251, 251, 0.8);
+        border-radius: 10px;
+        box-shadow: 2px 5px 8px;
+        text-align: center;
+        line-height: 18px;
+    }
+
+}
+@media (min-width:768px) and (max-width: 991px) {
+    section div div.card{
+        width: 45%;
+        height: 220px;
+        margin: 5px;
+        padding: 8px;
+        background-color: rgba(129, 251, 251, 0.8);
+        border-radius: 10px;
+        box-shadow: 2px 5px 8px;
+        text-align: center;
+        line-height: 18px;
+    }
+
+}
+
+@media (min-width:576px) and (max-width: 767px) {
     div.logo h2{
         font-size: 20px;
     }
@@ -330,17 +359,27 @@ div.container-setting table tr td a.delete{
         cursor: pointer;
         border-radius: 8px;
     }
-    
+    section div div.card{
+        width: 60%;
+        height: 220px;
+        margin: 5px;
+        padding: 8px;
+        background-color: rgba(129, 251, 251, 0.8);
+        border-radius: 10px;
+        box-shadow: 2px 5px 8px;
+        text-align: center;
+        line-height: 18px;
+    }
 
 }
 @media (max-width: 575px) {
     div.logo h2{
-        font-size: 20px;
+        font-size: 18px;
     }
     div.logo img{
         width: 40px;
         height: 40px;
-        margin: auto 10px;
+        margin: auto 5px;
     }
     div.nav{
         /* border: 1px solid white; */
@@ -364,6 +403,16 @@ div.container-setting table tr td a.delete{
         cursor: pointer;
         border-radius: 8px;
     }
-    
+    section div div.card{
+        width: 75%;
+        height: 220px;
+        margin: 5px;
+        padding: 8px;
+        background-color: rgba(129, 251, 251, 0.8);
+        border-radius: 10px;
+        box-shadow: 2px 5px 8px;
+        text-align: center;
+        line-height: 18px;
+    }
 
 }
