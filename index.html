@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GUERRERO TECH</title>
+    <!-- Conexion a FontAwesome -->
+    <link rel="stylesheet" href="/src/fontAwesome/fontawesome-free-6.5.1-web/fontawesome-free-6.5.1-web/css/all.css">
     <!-- Conexion a bootstrap -->
     <link href="/src/bootstrap-5.3.2-dist/css/bootstrap-grid.css" rel="stylesheet">
     <!-- Conexion a Hoja de estilos -->
     <link href="/src/css/style.css" rel="stylesheet" />
-    </head>
+    <script src="/src/js/function.js" async></script>
+</head>
 <body>
     <header class="row">
         <div class="logo col-lg-5 col-md-5 col-sm-6 col-6">
@@ -37,89 +40,149 @@
             Somos un grupo emprendedor nuevo en el rubro en venta de productos tecnológicos que tiene la misión de brindar la mejor calidad en una amplia categoria, con la misión de satisfacer el estilo de vida profesional de nuestros clientes.
         </p>
         </section>
-        <section class="products col-lg-8 col-md-10 col-sm-10 col-11">
+        <section class="products col-lg-10 col-md-10 col-sm-10 col-11 row">
             <h2>Nuestros Productos</h2>
-            <div class="catalogo row">
+            <div class="catalogo row col-lg-8">
                 <div class="card">
-                    <h3>LOGITECH G305</h3>
-                    <img src="/src/img/mouse_1.webp" alt="Mouse Logitech 01" width="20%">
+                    <h3 class="titulo-item">LOGITECH G305</h3>
+                    <img src="/src/img/mouse_1.webp" class="img-item" alt="Mouse Logitech 01" width="20%">
                     <p>Mouse Gamer Inalámbrico Logitech G305 Lightspeed Azul</p>
                     <h3>
-                        <strong>Precio: S/169.90</strong>
-                        <a href="#">Comprar</a>
+                        <strong class="precio-item">Precio: S/169.90</strong>
                     </h3>
+                    <button class="boton-item">Añadir al carrito</button>
+                    <!-- <a href="#">Añadir al carrito <i class="fa-solid fa-cart-shopping"></i></a> -->
                 </div>
                 <div class="card">
-                    <h3>TECLADO GAMER K599</h3>
-                    <img src="/src/img/teclado_1.webp" alt="Teclado Gamer 01" width="20%">
+                    <h3 class="titulo-item">TECLADO GAMER K599</h3>
+                    <img src="/src/img/teclado_1.webp" class="img-item" alt="Teclado Gamer 01" width="20%">
                     <p>Teclado Mecánico Gamer Redragon Deimos K599-krs Wireless Color Negro</p>
                     <h3>
-                        <strong>Precio: S/257.00</strong>
-                        <a href="#">Comprar</a>
+                        <strong class="precio-item">Precio: S/257.00</strong>
                     </h3>
+                    <button class="boton-item">Añadir al carrito</button>
+                    <!-- <a href="#" class="boton-item">Añadir al carrito <i class="fa-solid fa-cart-shopping"></i></a> -->
                 </div>
                 <div class="card">
-                    <h3>MONITOR MSI 24"</h3>
-                    <img src="/src/img/monitor_1.jpg" alt="Monitor Gamer 01" width="20%">
+                    <h3 class="titulo-item">MONITOR MSI 24"</h3>
+                    <img src="/src/img/monitor_1.jpg" class="img-item" alt="Monitor Gamer 01" width="20%">
                     <p>Monitor Gamer Curvo MSI 24 FHD VA HDMI/VGA 75Hz 8MS FreeSync Optix G24VC </p>
                     <h3>
-                        <strong>Precio: S/749.90</strong>
-                        <a href="#">Comprar</a>
+                        <strong class="precio-item">Precio: S/749.90</strong>
                     </h3>
+                    <button class="boton-item">Añadir al carrito</button>
+                    <!-- <a href="#">Añadir al carrito <i class="fa-solid fa-cart-shopping"></i></a> -->
                 </div>
                 <div class="card">
-                    <h3>LOGITECH G502</h3>
-                    <img src="/src/img/mouse_2.jpg" alt="Mouse Logitech 02" width="20%">
+                    <h3 class="titulo-item">LOGITECH G502</h3>
+                    <img src="/src/img/mouse_2.jpg" class="img-item" alt="Mouse Logitech 02" width="20%">
                     <p>Logitech G502 LightSpeed Wireless - Mouse para gaming</p>
                     <h3>
-                        <strong>Precio: S/349.90</strong>
-                        <a href="#">Comprar</a>
+                        <strong class="precio-item">Precio: S/349.90</strong>
                     </h3>
+                    <button class="boton-item">Añadir al carrito</button>
+                    <!-- <a href="#">Añadir al carrito <i class="fa-solid fa-cart-shopping"></i></a> -->
                 </div>
                 <div class="card">
-                    <h3>TECLADO GAMER MICRONICS</h3>
-                    <img src="/src/img/teclado_2.avif" alt="Teclado Gamer 02" width="20%">
+                    <h3 class="titulo-item">TECLADO GAMER MICRONICS</h3>
+                    <img src="/src/img/teclado_2.avif" class="img-item" alt="Teclado Gamer 02" width="20%">
                     <p>TECLADO GAMER MICRONICS FRANTIC MIC K713 USB LED.</p>
                     <h3>
-                        <strong>Precio: S/140.00</strong>
-                        <a href="#">Comprar</a>
+                        <strong class="precio-item">Precio: S/140.00</strong>
                     </h3>
+                    <button class="boton-item">Añadir al carrito</button>
+                    <!-- <a href="#">Añadir al carrito <i class="fa-solid fa-cart-shopping"></i></a> -->
                 </div>
                 <div class="card">
-                    <h3>MONITOR LG ULTRA GEAR 34"</h3>
-                    <img src="/src/img/monitor_2.avif" alt="Monitor Gamer 02" width="20%">
+                    <h3 class="titulo-item">MONITOR LG ULTRA GEAR 34"</h3>
+                    <img src="/src/img/monitor_2.avif" class="img-item" alt="Monitor Gamer 02" width="20%">
                     <p>Monitor Gamer UltraGear™ WQHD 5ms - GtG at Faster - de 34''</p>
                     <h3>
-                        <strong>Precio: S/1,749.90</strong>
-                        <a href="#">Comprar</a>
+                        <strong class="precio-item">Precio: S/1,749.90</strong>
                     </h3>
+                    <button class="boton-item">Añadir al carrito</button>
+                    <!-- <a href="#">Añadir al carrito <i class="fa-solid fa-cart-shopping"></i></a> -->
                 </div>
                 <div class="card">
-                    <h3>LOGITECH Lift</h3>
-                    <img src="/src/img/mouse_3.webp" alt="Mouse Logitech 03" width="20%">
+                    <h3 class="titulo-item">LOGITECH Lift</h3>
+                    <img src="/src/img/mouse_3.webp" class="img-item" alt="Mouse Logitech 03" width="20%">
                     <p>Mouse Inalámbrico Logitech Lift Vertical Black</p>
                     <h3>
-                        <strong>Precio: S/280.90</strong>
-                        <a href="#">Comprar</a>
+                        <strong class="precio-item">Precio: S/280.90</strong>
                     </h3>
+                    <button class="boton-item">Añadir al carrito</button>
+                    <!-- <a href="#">Añadir al carrito <i class="fa-solid fa-cart-shopping"></i></a> -->
                 </div>
                 <div class="card">
-                    <h3>TECLADO GAMER M-400</h3>
-                    <img src="/src/img/teclado_3.jpg" alt="Teclado Gamer 03" width="20%">
+                    <h3 class="titulo-item">TECLADO GAMER M-400</h3>
+                    <img src="/src/img/teclado_3.jpg" class="img-item" alt="Teclado Gamer 03" width="20%">
                     <p>Teclado y Mouse Gamer Blanco Kit con Luces LED RGB Retroiluminado Mod M-400</p>
                     <h3>
-                        <strong>Precio: S/44.90</strong>
-                        <a href="#">Comprar</a>
+                        <strong class="precio-item">Precio: S/44.90</strong>
                     </h3>
+                    <button class="boton-item">Añadir al carrito</button>
+                    <!-- <a href="#">Añadir al carrito <i class="fa-solid fa-cart-shopping"></i></a> -->
                 </div>
                 <div class="card">
-                    <h3>MONITOR SAMSUNG 24"</h3>
-                    <img src="/src/img/monitor_3.jpg" alt="Monitor Gamer 03" width="20%">
+                    <h3 class="titulo-item">MONITOR SAMSUNG 24"</h3>
+                    <img src="/src/img/monitor_3.jpg" class="img-item" alt="Monitor Gamer 03" width="20%">
                     <p>Monitor Gamer Samsung Odyssey G3 24″, 144Hz, Full HD, 1ms</p>
                     <h3>
-                        <strong>Precio: S/842.90</strong>
-                        <a href="#">Comprar</a>
+                        <strong class="precio-item">Precio: S/842.90</strong>
                     </h3>
+                    <button class="boton-item">Añadir al carrito</button>
+                    <!-- <a href="#">Añadir al carrito <i class="fa-solid fa-cart-shopping"></i></a> -->
+                </div>
+            </div>
+            <!-- Estructura del carrito de compras -->
+            <div class="car-shop col-lg-4" id="car-shop">
+                <div class="header-car">
+                    <h3>Carrito </h3>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="carrito-items">
+                    <!--
+                    <div class="carrito-item"> 
+                        <img src="/src/img/mouse_1.webp" width="80px" alt="">
+                        <div class="carrito-item-detalles">
+                            <span class="carrito-item-titulo">LOGITECH G305</span>
+                            <div class="selector-cantidad">
+                                <i class="fa-solid fa-minus restar-cantidad"></i>
+                                <input type="text" value="1" class="carrito-item-cantidad" disabled>
+                                <i class="fa-solid fa-plus sumar-cantidad"></i>
+                            </div>
+                            <span class="carrito-item-precio">S/169.90</span>
+                        </div>
+                        <span class="btn-eliminar">
+                            <i class="fa-solid fa-trash"></i>
+                        </span>
+                    </div>
+                    <div class="carrito-item">
+                        <img src="/src/img/monitor_3.jpg" width="80px" alt="">
+                        <div class="carrito-item-detalles">
+                            <span class="carrito-item-titulo">MONITOR SAMSUNG 24"</span>
+                            <div class="selector-cantidad">
+                                <i class="fa-solid fa-minus restar-cantidad"></i>
+                                <input type="text" value="3" class="carrito-item-cantidad" disabled>
+                                <i class="fa-solid fa-plus sumar-cantidad"></i>
+                            </div>
+                            <span class="carrito-item-precio">S/842.90</span>
+                        </div>
+                        <button class="btn-eliminar">
+                            <i class="fa-solid fa-trash"></i>
+                        </button>
+                    </div>
+                    -->
+                    
+                </div>
+                <div class="car-shop-total">
+                        <div class="fila">
+                            <strong>Tu Total</strong>
+                            <span class="carrito-precio-total">
+                                S/0,00
+                            </span>
+                        </div>
+                        <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
                 </div>
             </div>
         </section>
