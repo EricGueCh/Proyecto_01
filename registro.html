@@ -20,24 +20,31 @@
             <p>Registrate para que puedas conseguir los mejores descuentos en tus compras</p>
         </div>
         <div class="form-register">
-            <form action="">
+            <form action="/resultadoVal.html" method="post" onsubmit="return validacion()">
                 <label for="name">Nombres:</label>
                 <input type="text" class="information" id="name" placeholder="Ingresa tus nombres">
+                <span id="name_error" class="mensaje_error"></span>
                 <label for="surname">Apellidos:</label>
                 <input type="text" class="information" id="surname" placeholder="Ingresa tus apellidos">
+                <span id="surname_error" class="mensaje_error"></span>
                 <label for="email">E-mail:</label>
                 <input type="email" class="information" id="email" placeholder="Ingresa tu correo electrónico">
+                <span id="email_error" class="mensaje_error"></span>
                 <label for="pwd">Contraseña:</label>
                 <input type="password" class="information" id="pwd" placeholder="Ingresa tu contraseña">
+                <span id="pwd_error" class="mensaje_error"></span>
                 <div class="check-term">
-                    <input type="checkbox" class="information" name="term-conditions" id="term-conditions" required>
+                    <input type="checkbox" class="information" name="term-conditions" id="term-conditions">
                     <label for="term-conditions">He leído y acepto los <a href="#">&nbsp;Terminos y Condiciones</a></label>
+                    <span id="term-conditions_error" class="mensaje_error"></span>
                 </div>
                 <div class="check-political">    
-                    <input type="checkbox" class="information" name="political" id="political" required>
+                    <input type="checkbox" class="information" name="political" id="political">
                     <label for="political">He leído y acepto las <a href="#">&nbsp;Politicas de Privacidad</a></label>
-                </div>
+                    <span id="political_error" class="mensaje_error"></span>
+                </div>  
                 <input type="submit" name="send-register" id="send-register" value="Registrarme">
+                <input type="button" id="eraser-register" value="Borrar Todo" />
             </form>
             
         </div>
@@ -45,5 +52,6 @@
             <a href="index.html"><i class="fa-solid fa-arrow-left"></i> Regresar</a>
         </div>
     </div>
+    <script src="/src/js/validation.js"></script>
 </body>
 </html>

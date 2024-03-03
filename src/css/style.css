@@ -201,6 +201,7 @@ div div form label:not([for="term-conditions"],[for="political"]){
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
+    margin-top: 15px;
 }
 
 div div form label[for="term-conditions"],[for="political"]{
@@ -219,9 +220,14 @@ div div form input:not([type="submit"]){
 	/* padding-top: 0px; */
 	border: 1px solid #495e8d;
     border-radius: 3px;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 	color: black;
 	font-size: 15px;
+}
+span.mensaje_error{
+    color: rgb(168, 2, 2);
+    font-weight: bold;
+    font-size: 12px;
 }
 
 div div form div.check-term, div.check-political{
@@ -249,6 +255,26 @@ div div form input[type="submit"]:hover{
     background-color: rgb(5, 189, 251);
     color: crimson;
     
+}
+
+div div form input[type="button"]{
+    background-color: rgb(199, 199, 199);
+    color: rgb(69, 68, 68);
+    font-weight: bold;
+    margin: 10px auto;
+    /* margin-top: 10px; */
+    padding: 10px 0px;
+    border: none;
+    border-radius: 5px;
+    width: 50%;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+div div form input[type="button"]:hover{
+    background-color: rgb(69, 68, 68);
+    color: rgb(199, 199, 199);
 }
 
 div div.return{
