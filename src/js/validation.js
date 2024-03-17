@@ -169,6 +169,6 @@ function validacion() {
 		politicalError.innerHTML = mensajeErrorPolitical;
 		campoPolitical.style.outline = "2px solid #f00";
 		return false;
-	} 
-//    return true;
+	}
+	
 }

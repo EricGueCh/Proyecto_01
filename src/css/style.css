@@ -283,6 +283,35 @@ div div.return{
     text-align: center;
     font-size: 15px;
 }
+.info-registred{
+    width: 70%;
+    height: auto;
+    background-color: rgba(181, 183, 183, 0.8);
+    border-radius: 15px;
+    margin: 30px auto;
+    padding: 15px;
+    box-shadow: 5px 5px 15px;
+    justify-content: center;
+}
+.info-registred .information{
+    background-color: rgb(218, 216, 216);
+    font-size: 15px;
+    width: 95%;
+    margin: 15px auto;
+    border-color: rgb(82, 82, 82);
+    border-collapse: collapse;
+    text-align: center;
+}
+.info-registred .information thead tr th{
+    text-transform: uppercase;
+}
+.info-registred .information thead tr th,.info-registred .information tbody tr td{
+    padding: 10px 0px;
+    /* margin: 0px 10px; */
+}
+.info-registred .information tbody tr td a:hover{
+    color: green;
+}
 
 /* Creacion de la pagina de Gestion de Perfil */
 
